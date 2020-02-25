@@ -1,4 +1,4 @@
-# Salesforce-CLI
+# SalesforceCLI
 A CLI Tool for Working with Your Organizations SFDC
 
 # Commands
