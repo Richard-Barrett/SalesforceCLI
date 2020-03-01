@@ -1,0 +1,210 @@
+{
+  "id": "874c01ed-7c34-4fc1-acdc-10e9e6bdfcce",
+  "version": "2.0",
+  "name": "Reset Security Token",
+  "url": "https://mirantis.my.salesforce.com/",
+  "tests": [{
+    "id": "b8f1dd0c-43df-476c-a6eb-56f5fe7ef883",
+    "name": "Untitled",
+    "commands": [{
+      "id": "fb9acbd8-489f-42b2-9db7-b5b42ad8259c",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='username_container']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "USERNAME"
+    }, {
+      "id": "dc9f3c11-f75d-4fc9-99b1-7cb2ddd9cf2d",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//div[@id='username_container']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "USERNAME"
+    }, {
+      "id": "bcce4dee-7a4f-4340-978e-2504ef46be7c",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=pw", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f94829b-9c39-44de-b3da-8f3510e5091f",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=pw", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "PASSWORD"
+    }, {
+      "id": "63367d23-e20a-4105-97a4-de4b8d885f87",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=pw", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "PASSWORD"
+    }, {
+      "id": "ea724749-89ff-44b5-81b5-23291d7c1943",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=Login",
+      "targets": [
+        ["id=Login", "id"],
+        ["name=Login", "name"],
+        ["css=#Login", "css:finder"],
+        ["xpath=//input[@id='Login']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//form/input[2]", "xpath:position"]
+      ],
+      "value": "96.5,20"
+    }, {
+      "id": "7435d7c2-a275-43cf-b425-1efb31e2affd",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=Login",
+      "targets": [
+        ["id=Login", "id"],
+        ["name=Login", "name"],
+        ["css=#Login", "css:finder"],
+        ["xpath=//input[@id='Login']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//form/input[2]", "xpath:position"]
+      ],
+      "value": "96.5,20"
+    }, {
+      "id": "5e559fd5-0aa1-4521-acb5-ef3189e63bf4",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=Login",
+      "targets": [
+        ["id=Login", "id"],
+        ["name=Login", "name"],
+        ["css=#Login", "css:finder"],
+        ["xpath=//input[@id='Login']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//form/input[2]", "xpath:position"]
+      ],
+      "value": "96.5,20"
+    }, {
+      "id": "349d0a25-e615-41fa-9df9-9633d817229c",
+      "comment": "",
+      "command": "click",
+      "target": "id=Login",
+      "targets": [
+        ["id=Login", "id"],
+        ["name=Login", "name"],
+        ["css=#Login", "css:finder"],
+        ["xpath=//input[@id='Login']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/input[2]", "xpath:idRelative"],
+        ["xpath=//form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b0fdc69-681f-489d-874b-e78369f88c90",
+      "comment": "",
+      "command": "click",
+      "target": "id=userNavLabel",
+      "targets": [
+        ["id=userNavLabel", "id"],
+        ["css=#userNavLabel", "css:finder"],
+        ["xpath=//span[@id='userNavLabel']", "xpath:attributes"],
+        ["xpath=//div[@id='userNavButton']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb0b1984-865e-48b5-a0bd-4156ec1062c2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Setup",
+      "targets": [
+        ["linkText=Setup", "linkText"],
+        ["css=#userNav-menuItems > .menuButtonMenuLink:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Setup')]", "xpath:link"],
+        ["xpath=//div[@id='userNav-menuItems']/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ui/setup/Setup')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div[3]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Setup')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c114ab36-996a-47aa-a1f0-02550b2ee08c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Reset your security token",
+      "targets": [
+        ["linkText=Reset your security token", "linkText"],
+        ["css=tr:nth-child(3) > td:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Reset your security token')]", "xpath:link"],
+        ["xpath=//td[@id='bodyCell']/div[2]/div/div[2]/table/tbody/tr[3]/td/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/_ui/system/security/ResetApiTokenEdit?retURL=%2Fui%2Fsetup%2FSetup%3Fsetupid%3DPersonalInfo&setupid=ResetApiToken')])[2]", "xpath:href"],
+        ["xpath=//tr[3]/td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Reset your security token')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ab16aee-2aee-4b63-a5e0-a582321ec7e8",
+      "comment": "",
+      "command": "click",
+      "target": "name=save",
+      "targets": [
+        ["name=save", "name"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@name='save']", "xpath:attributes"],
+        ["xpath=//div[@id='ep']/div[2]/div[2]/table/tbody/tr[3]/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae747556-3bc8-48a9-831a-be4e37a13887",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "72ddbfc4-fee1-40ef-9d1d-8d173486ced1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b8f1dd0c-43df-476c-a6eb-56f5fe7ef883"]
+  }],
+  "urls": ["https://mirantis.my.salesforce.com/"],
+  "plugins": []
+}
