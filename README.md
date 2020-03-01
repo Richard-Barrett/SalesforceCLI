@@ -1,9 +1,9 @@
-## SalesforceCLI
+# SalesforceCLI
 A CLI Tool for Working with Your Organizations SFDC
 
 ![Image](https://triking-creative.s3.amazonaws.com/Logos/SalesforceCLI/SalesforceCLI+Brand.PNG)
 
-# Directory Structure
+## Directory Structure
 The overall structure is split into overall interaction within a SalesForce Organization. 
 - **[Documentation](https://github.com/Richard-Barrett/SalesforceCLI/tree/master/Documentation)**: contains any and all documentation related to the repository including a man page. 
 - **[Installation](https://github.com/Richard-Barrett/SalesforceCLI/tree/master/Installation)**: contains installation scripts for the overall repository.
@@ -16,7 +16,7 @@ The overall structure is split into overall interaction within a SalesForce Orga
 - **[Samples](https://github.com/Richard-Barrett/SalesforceCLI/tree/master/Samples)**: contains samples from **`SOQL`** scripts to overall python scripts. 
 - **[ServiceConsole](https://github.com/Richard-Barrett/SalesforceCLI/tree/master/ServiceConsole)**: contains overall interactions allowed to users with service console application access within a SalesForce Organization
 
-# Commands
+## Commands
 Main Syntax 
 ```
 sfdc <Argument> --Flag Flag-String Options=Value
@@ -27,7 +27,7 @@ Example to pull out a report on Sev2 Cases:
 sfdc cases --report sev2 time-frame=today
 ```
 
-# Arguments
+## Arguments
 ```
 cases
 
@@ -37,11 +37,11 @@ leads
 
 reports
 ```
-# Flags
+## Flags
 ```
 -r, --report 
 ```
-# Options
+## Options
 ```
 time-frame
 severity-level
