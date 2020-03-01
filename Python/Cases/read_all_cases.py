@@ -58,6 +58,7 @@ version = platform.version()
 my_sf = salesforce_reporting.Connection((config['user']['username']),
                                         (config['user']['password']),
                                         (config['user']['salesforce_token']))
+
 with open('reports.json','r') as f:
         config = json.load(f)
         
