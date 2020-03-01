@@ -10,6 +10,10 @@ The main reason as to why these two modules were chosen is because Salesforce st
 ```
 "SELECT Id, Email FROM Contact WHERE LastName = 'Jones'"
 ```
+
+As you can imagine this most likely means that you will have to have access to a Salesforce account.
+Furthermore, the overall **`SELECT`** statements can vary due to the customization organizations can achieve within Salesforce. 
+
 ## Cases
 
 ## Custom
