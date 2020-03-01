@@ -59,6 +59,9 @@ my_sf = salesforce_reporting.Connection((config['user']['username']),
                                         (config['user']['password']),
                                         (config['user']['salesforce_token']))
 
+with open('reports.json','r') as f:
+        config = json.load(f)
+        
 report = my_sf.get_report((config['report']['all_cases_sev1']))
 parser = salesforce_reporting.ReportParser(report)
 report_final = pd.DataFrame(parser.records())
