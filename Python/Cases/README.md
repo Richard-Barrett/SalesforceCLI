@@ -56,6 +56,8 @@ The SlaesForce security token is located within your setup.
 You will probably not even know you have a security token. 
 In order to make the Security Token, you will first most likely need to reset your security token within your Salesforce Organizaiton. To do so Navigate to Setup, Click on Reset my Security Token, and you will recieve an email wihin your organization or registered domain that is hosting your corporate email. 
 
+- **[What is Salesforce Security Token and How Do I Find It?](https://www.skyhighnetworks.com/cloud-security-blog/what-is-salesforce-security-token-and-how-do-i-find-it/)**
+
 NEED TO PUT PICTURES AND DOCUMENTATION
 
 ## Finding the Salesforce Report ID for A Report 
