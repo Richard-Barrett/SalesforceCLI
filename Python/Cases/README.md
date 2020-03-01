@@ -1,9 +1,9 @@
-## Cases
+# Cases
 
-# Creating a **`secrets.json`** File
+## Creating a **`secrets.json`** File
 
-# Creating a **`reports.json`** File 
+## Creating a **`reports.json`** File 
 
-# Locating Salesforce Security Token
+## Locating Salesforce Security Token
 
-# Finding the Salesforce Report ID for A Report 
+## Finding the Salesforce Report ID for A Report 
