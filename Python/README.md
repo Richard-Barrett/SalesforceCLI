@@ -21,8 +21,30 @@ The overall directory is consistent with the Tab Menu Items one would normally s
 You need to create two files within each sub-directory in order to work with the scripts. 
 
 - A **`secrets.json`** File
-- A **`reports.json`** File 
+```
+{
+  "user": {
+    "username": "INSERT_USERNAME",
+    "password": "INSERT_PASSWORD",
+    "salesforce_token": "INSERT_TOKEN"
+  }
+}
+```
 
+- A **`reports.json`** File 
+```
+{
+  "report": {
+    "all_cases": "ALL_CASES_REPORT_ID",
+    "all_cases_change_requests": "ALL_CASES_CHANGE_REQUESTS_ID",
+    "all_cases_handover": "ALL_CASES_HANDOVER_ID",
+    "all_cases_sev1": "ALL_CASES_SEV1_ID",
+    "all_cases_sev2": "ALL_CASES_SEV2_ID",
+    "all_cases_sev3": "ALL_CASES_SEV3_ID",
+    "all_cases_sev4": "ALL_CASES_SEV4_ID"
+  }
+}
+```
 The scripts are written in such a way that information is loaded from a **`JSON`** file that is specifically set to be ignored within the repository. This means the script only pass of information if you have access to the Salesforce Organization. The ignore is set within **`.gitignore`** file at the root directory of the repository. 
 
 ## Cases
