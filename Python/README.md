@@ -32,3 +32,8 @@ The scripts are written in such a way that information is loaded from a **`JSON`
 ## Leads 
 
 ## Reports
+
+## Installing Requirements
+
+## Working with SalesforceCLI as a CLI Tool 
+Since the overall purpose here was to mimic an API Tool for Salesforce the main script that allows you to interact with all of the modules within this directory is the **`api_cli.py`** script. Documentation on how to use this as an API can be found on the home page of this repository. 
