@@ -1,8 +1,8 @@
 # Cases
 
-# Creating a **`secrets.json`** File to Authenticate
+# Creating a **`secrets.json`** File
 
-# Creating a **`reports.json`** File to Store Report Information on Salesforce Cases
+# Creating a **`reports.json`** File 
 
 # Locating Salesforce Security Token
 
