@@ -46,6 +46,7 @@ print(session_id)
 # Options
 options = Options()
 options.add_argument("--headless")
+pd.set_option('display.max_rows', None)
 
 # System Variables
 today = date.today()
