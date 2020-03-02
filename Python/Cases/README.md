@@ -58,7 +58,10 @@ In order to make the Security Token, you will first most likely need to reset yo
 
 - **[What is Salesforce Security Token and How Do I Find It?](https://www.skyhighnetworks.com/cloud-security-blog/what-is-salesforce-security-token-and-how-do-i-find-it/)**
 
-NEED TO PUT PICTURES AND DOCUMENTATION
+By Default, SalesForce does not actually expose this so you have to reset your Token if you do not know it. 
+You can request a Token Reset by following the below steps:
+![Navigate to Set-Up](https://uploads.skyhighnetworks.com/2016/09/21134631/sfdc-security-token-image-2.1.png)
+
 
 ## Finding the Salesforce Report ID for A Report 
 
