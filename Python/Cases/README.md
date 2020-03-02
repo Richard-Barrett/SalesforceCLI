@@ -80,7 +80,10 @@ To get the report of a Salesforce Report ID you will need to first make sure tha
 The ID of a Report can be found by looking at the end of the URL. 
 Look at the following pictures to understand where to locate the report ID.
 You can find the ID for the Report after you have created it. 
-To so navigate to the top right hand corner of your SalesForce view and you will see the following. 
+To so navigate to the top right hand corner of your SalesForce view and click the down arrow. 
 
+- **Navigate to the Down Arrow Underneath Profile Image in the Reports Tab**
 ![Image](https://triking-creative.s3.amazonaws.com/Logos/SalesforceCLI/Documentation/Salesforce_Report_ID_Locate_A_Arrows.PNG)
+
+- **Click on The Link Icon to See The Shareable Link**
 ![Image](https://triking-creative.s3.amazonaws.com/Logos/SalesforceCLI/Documentation/Salesforce_Report_ID_Locate_B_Arrows.PNG)
