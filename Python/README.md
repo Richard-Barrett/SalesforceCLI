@@ -50,14 +50,35 @@ You need to create two files within each sub-directory in order to work with the
 The scripts are written in such a way that information is loaded from a **`JSON`** file that is specifically set to be ignored within the repository. This means the script only pass of information if you have access to the Salesforce Organization. The ignore is set within **`.gitignore`** file at the root directory of the repository. 
 
 ## Cases
+Salesforce Cases are available in both Salesforce Classic and Lightning Experience. 
+A normal case view might look like the following:
+
+![Image](https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/service_basics/service_basics_intro/images/187ead0bf0768bd9b400f7442fbe47bb_service_console_customize_plan_agents_example.png)
+
+However, a Salesforce Classic Case view might look something similar to this:
+
+![Image](https://www.coveo.com/-/media/library/images/feature/hero-banner/solutions/coveo-for-salesforce/besttech---insight-panel_v2-2.ashx)
 
 ## Custom
+The **Custom** tab menu item contains custom Tab Menu Item options specific to your organization. 
+As a result, I have set everything in here to be ignored. Allowing you to centralize python interactions in within this directory. 
+There are a few scripts in this directory that will list out the objects and available custom options your organization may have available. 
 
 ## Leads 
+This is the main interaction for Sales people to gain and build leads as well as follow up with people. 
+It may be important to gather a quick report on your leads from within the CLI to integrate better with other platforms that are now already integrated with Salesforce. 
 
 ## Reports
+This is the main emphasis here that opens up the reports and main point of Salesforce. 
+Here you can manage reports, view reports, create reports, and clone reports. Reports will vary from organizations, so I have focused on making the repository simple to delete, view, create, and clone reports. 
 
 ## Installing Requirements
+To install the requirements you can simply use the following command to install all of the python requirements on your system.
+
+- **`pip install -r requirements.txt`**
+
+This assumes that you have **Python** installed on your machine. 
+If **Python** is not installed on your machine, run over to [~/SalesforceCLI/Installation/](https://github.com/Richard-Barrett/SalesforceCLI/tree/master/Installation) and run the scripts respective to your operating system `install.sh` for Linux and/or Mac and `install.ps1` for Windows. 
 
 ## Working with SalesforceCLI as a CLI Tool 
 Since the overall purpose here was to mimic an API Tool for Salesforce the main script that allows you to interact with all of the modules within this directory is the **`api_cli.py`** script. Documentation on how to use this as an API can be found on the home page of this repository. 
