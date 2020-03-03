@@ -1,5 +1,5 @@
 ## SalesforceCLI
-![Image](https://triking-creative.s3.amazonaws.com/Logos/SalesforceCLI/SalesfroceCLI_A.jpg)
+![Image](https://triking-creative.s3.amazonaws.com/Logos/SalesforceCLI/SalesforceCLI+Brand.PNG)
 
 
 A CLI Tool for Working with Your Organizations SFDC
