@@ -1,7 +1,8 @@
+##SalesforceCLI
 ![Image](https://triking-creative.s3.amazonaws.com/Logos/SalesforceCLI/SalesfroceCLI_A.jpg)
 
-A CLI Tool for Working with Your Organizations SFDC
 
+A CLI Tool for Working with Your Organizations SFDC
 ## Directory Structure
 The overall structure is split into overall interaction within a SalesForce Organization. 
 - **[Documentation](https://github.com/Richard-Barrett/SalesforceCLI/tree/master/Documentation)**: contains any and all documentation related to the repository including a man page. 
