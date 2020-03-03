@@ -12,3 +12,6 @@ README.txt
 
 # Ignore All JSON Files With .json Extension
 *.json
+
+# Ignore All GPG Files With .gpg Extension
+*.gpg
