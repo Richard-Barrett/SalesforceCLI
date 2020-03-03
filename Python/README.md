@@ -102,9 +102,9 @@ You can request a Token Reset by following the below steps:
 ## Finding the Salesforce Report ID for A Report 
 To get the report of a Salesforce Report ID you will need to first make sure that it follows certain conventions.
 
-- 1. It cannot be a Personal Report
-- 2. The Report Must be Saved in a Shared Folder 
-- 3. The Report must be ran. 
+- 1. **It cannot be a Personal Report.**
+- 2. **The Report Must be Saved in a Shared Folder.** 
+- 3. **The Report must be ran.** 
 
 The ID of a Report can be found by looking at the end of the URL. 
 Look at the following pictures to understand where to locate the report ID.
