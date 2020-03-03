@@ -65,7 +65,6 @@ You can request a Token Reset by following the below steps:
 - **Navigate to Set-Up**
 ![Navigate to Set-Up](https://uploads.skyhighnetworks.com/2016/09/21134631/sfdc-security-token-image-2.1.png)
 
-
 - **Click on Set-Up and Move to the Next Page and Request to Reset Security Token**
 ![Request Reset](https://uploads.skyhighnetworks.com/2016/09/21134650/sfdc-security-token-image-3.1.png)
 
@@ -84,6 +83,11 @@ To so navigate to the top right hand corner of your SalesForce view and click th
 
 - **Navigate to the Down Arrow Underneath Profile Image in the Reports Tab**
 ![Image](https://triking-creative.s3.amazonaws.com/Logos/SalesforceCLI/Documentation/Salesforce_Report_ID_Locate_A_Arrows.PNG)
+
+After clicking on the Icon Link a pop window will appear.
+This window will share a link with the root part of the directory being your salesforce domain name. 
+The second part will be a string containing a unique ID for the report. 
+This is the report ID.
 
 - **Click on The Link Icon to See The Shareable Link**
 ![Image](https://triking-creative.s3.amazonaws.com/Logos/SalesforceCLI/Documentation/Salesforce_Report_ID_Locate_B_Arrows.PNG)
