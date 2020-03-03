@@ -68,6 +68,9 @@ There are a few scripts in this directory that will list out the objects and ava
 This is the main interaction for Sales people to gain and build leads as well as follow up with people. 
 It may be important to gather a quick report on your leads from within the CLI to integrate better with other platforms that are now already integrated with Salesforce. 
 
+An Example View might look like this:
+![Image](https://docs.manywho.com/wp-content/uploads/2016/10/Screen-Shot-2017-01-14-at-12.16.30-PM-minishadow.png)
+
 ## Reports
 This is the main emphasis here that opens up the reports and main point of Salesforce. 
 Here you can manage reports, view reports, create reports, and clone reports. Reports will vary from organizations, so I have focused on making the repository simple to delete, view, create, and clone reports. 
