@@ -3,8 +3,7 @@
 import json
 
 # example dictionary that contains data like you want to have in json
-details = 
-{
+details = {
   "report": {
     "all_cases": "ALL_CASES_REPORT_ID",
     "all_cases_change_requests": "ALL_CASES_CHANGE_REQUESTS_ID",
