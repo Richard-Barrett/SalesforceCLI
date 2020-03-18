@@ -1,0 +1,71 @@
+{
+  "id": "0fab3a1b-57b4-4f1c-8cab-881ae745c2f4",
+  "version": "2.0",
+  "name": "Google_Handover_Sheet",
+  "url": "https://docs.google.com",
+  "tests": [{
+    "id": "0044c1e0-6fde-4eeb-af98-796362ad362c",
+    "name": "Untitled",
+    "commands": [{
+      "id": "9c0d42e4-3894-4558-a1b6-2ecf7206d9ca",
+      "comment": "",
+      "command": "open",
+      "target": "/spreadsheets/d/1wwbOh5EIZ1oq7NKh4ZoXWeIyG0uIiphoTZTA-_vc0Uc/edit",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6760bdec-14c7-4246-a4a8-90061863e4a6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "947x788",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1fd20bf6-3f7d-4a5e-af4f-c11c7e6ed170",
+      "comment": "",
+      "command": "editContent",
+      "target": "id=waffle-rich-text-editor",
+      "targets": [
+        ["id=waffle-rich-text-editor", "id"],
+        ["css=#waffle-rich-text-editor", "css:finder"],
+        ["xpath=//div[@id='waffle-rich-text-editor']", "xpath:attributes"],
+        ["xpath=//body/div[10]/div/div", "xpath:position"]
+      ],
+      "value": "<br><br>"
+    }, {
+      "id": "9cb07b7c-01c7-4a3c-a1f3-ac0a963491ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=docs-extensions-menu",
+      "targets": [
+        ["id=docs-extensions-menu", "id"],
+        ["css=#docs-extensions-menu", "css:finder"],
+        ["xpath=//div[@id='docs-extensions-menu']", "xpath:attributes"],
+        ["xpath=//div[@id='docs-menubar']/div[9]", "xpath:idRelative"],
+        ["xpath=//div[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f11a718-c7b3-4a12-8635-8d0b8cab237b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#M2HpANxv68Xd1WdCyf7uO4RpgNu2sSabr_2e4794b5-e832-4ed5-ba95-2dd5af656d1f > .goog-menuitem-content",
+      "targets": [
+        ["css=#M2HpANxv68Xd1WdCyf7uO4RpgNu2sSabr_2e4794b5-e832-4ed5-ba95-2dd5af656d1f > .goog-menuitem-content", "css:finder"],
+        ["xpath=//div[@id='M2HpANxv68Xd1WdCyf7uO4RpgNu2sSabr_2e4794b5-e832-4ed5-ba95-2dd5af656d1f']/div", "xpath:idRelative"],
+        ["xpath=//div[124]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d7886359-2ce5-4744-a754-f9dda10cfa35",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0044c1e0-6fde-4eeb-af98-796362ad362c"]
+  }],
+  "urls": ["https://docs.google.com/"],
+  "plugins": []
+}
