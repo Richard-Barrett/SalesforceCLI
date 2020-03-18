@@ -16,7 +16,7 @@ import getpass
 import platform
 import logging
 import time 
-from datetime import date
+from datetime import datetime, timedelta
 import json
 from slackclient import SlackClient
 
@@ -31,9 +31,13 @@ with open('secrets.json','r') as f:
       config = json.load(f)
 
 # System Variables
-date = today.strftime("%m/%d/%Y")
 now = datetime.now()
 today = date.today()
+current_date = today.strftime("%m/%d/%Y")
+try:
+    past_date = today.replace(year=today.year-2) # the 2 on this line is how many years in the past you need.
+except ValueError:
+    past_date = today.replace(year=today.year-2, day=today.day-1)
 current_directory = os.getcwd()
 node = platform.node()
 system = platform.system()
