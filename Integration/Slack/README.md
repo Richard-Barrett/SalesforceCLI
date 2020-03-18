@@ -14,7 +14,7 @@ In order to integrate with Slack you will need to generate a JSON payload in ord
     "channel": "SLACK_CHANNEL"
   },
   "slack_message": {
-    "message": "INSERT A MESSAGE"
+    "message": "INSERT_A_MESSAGE"
   }
 }
 ```
