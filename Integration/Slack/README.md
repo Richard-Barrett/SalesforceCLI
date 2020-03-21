@@ -25,10 +25,10 @@ python secrets_json_slack_int_maker.py
 
 **Before The Script is Ran:**
 ```bash
-.
 ├── README.md
-├── secrets_json_slack_int_maker.py
-└── send_message.py
+├── automated_messages.py
+├── automated_messages.sh
+└── secrets_json_slack_int_maker.py
 ```
 
 **Output:**
@@ -50,9 +50,9 @@ Please check the current working directory for the file.
 
 **After The Script is Ran:**
 ```bash
-.
 ├── README.md
+├── automated_messages.py
+├── automated_messages.sh
 ├── secrets.json
-├── secrets_json_slack_int_maker.py
-└── send_message.py
+└── secrets_json_slack_int_maker.py
 ```
