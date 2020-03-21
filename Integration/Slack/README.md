@@ -5,16 +5,12 @@ In order to integrate with Slack you will need to generate a JSON payload in ord
 ```json
 {
   "slack_config": {
-    "slack_username": "SLACK_USERNAME",
-    "slack_secret": "SLACK_SECRET",
-    "slack_client_id": "SLACK_CLIENT_ID",
-    "slack_api_tokent": "SLACK_API_TOKEN"
+    "slack_target_url": "INSERT_URL"
   },
-  "slack_destination": {
-    "channel": "SLACK_CHANNEL"
-  },
-  "slack_message": {
-    "message": "INSERT_A_MESSAGE"
+  "slack_messages": {
+    "message_1": "SLACK_MESSAGE_1",
+    "message_2": "SLACK_MESSAGE_2",
+    "message_3": "SLACK_MESSAGE_3"
   }
 }
 ```
@@ -41,18 +37,14 @@ python secrets_json_slack_int_maker.py
 JSON will be STD.OUT to secrets.json
 Please check the current working directory for the file.
 {
-    "slack_config": {
-        "slack_client_id": "SLACK_CLIENT_ID",
-        "slack_api_tokent": "SLACK_API_TOKEN",
-        "slack_username": "SLACK_USERNAME",
-        "slack_secret": "SLACK_SECRET"
-    },
-    "slack_destination": {
-        "channel": "SLACK_CHANNEL"
-    },
-    "slack_message": {
-        "message": "INSERT_A_MESSAGE"
-    }
+  "slack_config": {
+    "slack_target_url": "INSERT_URL"
+  },
+  "slack_messages": {
+    "message_1": "SLACK_MESSAGE_1",
+    "message_2": "SLACK_MESSAGE_2",
+    "message_3": "SLACK_MESSAGE_3"
+  }
 }
 ```
 
