@@ -3,18 +3,15 @@
 import json
 
 # example dictionary that contains data like you want to have in json
+# "slack_target_url": "https://hooks.slack.com/services/XXXXXXXXX/XXXXXXXXXXXX/XXXXXXXXXXXXXXX"
 details = {
   "slack_config": {
-    "slack_username": "SLACK_USERNAME",
-    "slack_secret": "SLACK_SECRET",
-    "slack_client_id": "SLACK_CLIENT_ID",
-    "slack_api_tokent": "SLACK_API_TOKEN"
+    "slack_target_url": "INSERT_URL"
   },
-  "slack_destination": {
-    "channel": "SLACK_CHANNEL"
-  },
-  "slack_message": {
-    "message": "INSERT_A_MESSAGE"
+  "slack_messages": {
+    "message_1": "SLACK_MESSAGE_1",
+    "message_2": "SLACK_MESSAGE_2",
+    "message_3": "SLACK_MESSAGE_3"
   }
 }
 
