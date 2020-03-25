@@ -22,4 +22,4 @@ with open('secrets.json', 'w') as json_file:
 json = json.dumps(details, indent=4)
 print("JSON will be STD.OUT to secrets.json")
 print("Please check the current working directory for the file.")
-print json
+print(json)
