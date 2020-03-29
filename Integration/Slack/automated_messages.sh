@@ -32,5 +32,8 @@ curl -X POST -H 'Content-type: application/json' --data "{\"text\":\"$message_2\
 # Message for All Change Requests:
 curl -X POST -H 'Content-type: application/json' --data "{\"text\":\"$message_3\"}" $webhook_url
 
-# Message for Change Requests in Ready to Execute
+# Message for Change Requests in Ready to Execute:
 curl -X POST -H 'Content-type: application/json' --data "{\"text\":\"$message_4\"}" $webhook_url
+
+# Message for L2 On-Call Schedule:
+curl -X POST -H 'Content-type: application/json' --data "{\"text\":\"$message_5\"}" $webhook_url
