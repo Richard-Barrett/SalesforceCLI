@@ -4,8 +4,8 @@ import click
 def API():
     """A CLI wrapper for Salesforce Users and Companies Using Salesforce."""
 
-@click.option('--report', help='Generate a report based on a Salesforce Object')
-@click.option('--severity', help='Severity Level Defined by Organization')
+@click.option('--report', default=1, help='Generate a report based on a Salesforce Object')
+@click.option('--severity', default=1, help='Severity Level Defined by Organization')
 
 @API.command()
 def entries():
