@@ -1,5 +1,5 @@
 ## SalesforceCLI
-![Image](https://triking-creative.s3.amazonaws.com/Logos/SalesforceCLI/SalesforceCLI+Brand.PNG)
+![Image](https://github.com/Richard-Barrett/SalesforceCLI/blob/master/Images/Logos/Screen%20Shot%202020-04-05%20at%2008.23.42.png)
 
 
 A CLI Tool for Working with Your Organizations SFDC
