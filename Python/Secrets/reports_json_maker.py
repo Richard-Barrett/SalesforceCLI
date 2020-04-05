@@ -6,12 +6,15 @@ import json
 details = {
   "report": {
     "all_cases": "ALL_CASES_REPORT_ID",
+    "all_my_cases": "ALL_MY_CASES_REPORT_ID",
+    "all_cases_first_response_missed": "ALL_CASES_FIRST_RESPONSE_MISSED",
     "all_cases_change_requests": "ALL_CASES_CHANGE_REQUESTS_ID",
     "all_cases_handover": "ALL_CASES_HANDOVER_ID",
     "all_cases_sev1": "ALL_CASES_SEV1_ID",
     "all_cases_sev2": "ALL_CASES_SEV2_ID",
     "all_cases_sev3": "ALL_CASES_SEV3_ID",
-    "all_cases_sev4": "ALL_CASES_SEV4_ID"
+    "all_cases_sev4": "ALL_CASES_SEV4_ID",
+    "all_cases_sla_violated": "ALL_CASES_VIOLATED_ID"
   }
 }
 
