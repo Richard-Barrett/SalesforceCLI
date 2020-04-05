@@ -1,0 +1,1 @@
+# SalesforceCLI Queries & SOQL Dictionaries 
