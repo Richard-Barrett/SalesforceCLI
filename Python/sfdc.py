@@ -17,27 +17,22 @@ parser.add_argument('soql', help='SOQL custom query for users within an SFDC')
 parser.add_argument('reports', help='reports dataframes related to defined reporst, default is set to list all available reports for use with SFDC access')
 
 # Optional Arguments
-parser.add_argument('-v','--version', dest='accumulate', action='store_const',
-                    const=sum, default=max,
+parser.add_argument('-v','--version', action='store_true',
                     help='Returns the version of SalesforceCLI'),
 #printf("Optional Arguments for cases")
-parser.add_argument('-s1','--sev1', dest='accumulate', action='store_const',
-                    const=sum, default=max,
-                    help='Return Pandas Dataframe for all Severity Level 1 Cases')
-parser.add_argument('-s2','--sev2', dest='accumulate', action='store_const',
-                    const=sum, default=max,
-                    help='Return Pandas Dataframe for all Severity Level 2 Cases')
-parser.add_argument('-s3','--sev3', dest='accumulate', action='store_const',
-                    const=sum, default=max,
-                    help='Return Pandas Dataframe for all Severity Level 3 Cases')
-parser.add_argument('-s4','--sev4', dest='accumulate', action='store_const',
-                    const=sum, default=max,
-                    help='Return Pandas Dataframe for all Severity Level 4 Cases')
-
+parser.add_argument('-s1','--sev1', action='store_true',
+                    help='Return Pandas Dataframe for all Severity Level 1 Cases'),
+#parser.add_argument('-s2','--sev2', action='store_true',
+#                    help='Return Pandas Dataframe for all Severity Level 2 Cases'),
+#parser.add_argument('-s3','--sev3', action='store_true', 
+#		    help='Return Pandas Dataframe for all Severity Level 3 Cases'),
+#parser.add_argument('-s4','--sev4', action='store_true',
+#		    help='Return Pandas Dataframe for all Severity Level 4 Cases')
 args = parser.parse_args()
 
 if args.sev1:
-   execfile('Cases/read_all_sev1_cases.py')
+   execfile('/Users/richardbarret/Git/SalesforceCLI/Python/Cases/read_all_sev1_cases.py')
+   #os.system('python ~/Git/SalesforceCLI/Python/Cases/read_all_sev1_cases.py')
 
-if args.sev2:
-   execfile('Cases/read_all_sev2_cases.py')
+if sys.argv[-s2] == "--sev2":
+   execfile('~/Git/SalesforceCLI/Python/Cases/read_all_sev2_cases.py')
