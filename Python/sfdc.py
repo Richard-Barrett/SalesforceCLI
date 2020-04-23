@@ -1,5 +1,14 @@
 #!/usr/bin/env python
 import argparse
+import os 
+import sys
+
+# Functions for Calling Cases
+def sev1():
+	execfile('/Users/richardbarret/Git/SalesforceCLI/Python/Cases/read_all_sev1_cases.py')
+
+def sev2():
+	execfile('~/Git/SalesforceCLI/Python/Cases/read_all_sev2_cases.py')
 
 parser = argparse.ArgumentParser(
 	description='SalesforceCLI will return Pandas Dataframes from Salesforce Cases within an Organizations SFDC. It will also allow you to interact with Salesforce Lighting Experience or Service console from within the CLI. You will even be able to make leads, create cases, and send off emails all from your CLI!',
