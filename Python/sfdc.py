@@ -37,7 +37,8 @@ parser.add_argument('-s3','--sev3', action='store_true',
 		    help='Return Pandas Dataframe for all Severity Level 3 Cases'),
 parser.add_argument('-s4','--sev4', action='store_true',
 		    help='Return Pandas Dataframe for all Severity Level 4 Cases')
-args = parser.parse_args()
+#args = parser.parse_args()
+args = vars(parser.parse_args())
 
 if args.sev1:
    execfile('/Users/richardbarret/Git/SalesforceCLI/Python/Cases/read_all_sev1_cases.py')
