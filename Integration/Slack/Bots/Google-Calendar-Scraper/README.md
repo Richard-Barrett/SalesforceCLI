@@ -1,1 +1,1 @@
-# Google Calendar Scraper
+# Slack Bot Google Calendar Scraper
